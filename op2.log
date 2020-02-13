@@ -1,0 +1,30 @@
+Initializing modules...
+2020/02/12 16:48:52 [DEBUG] Module installer: begin alice
+2020/02/12 16:48:52 [TRACE] ModuleInstaller: Module installer: alice 2.0.20 already installed in .terraform/modules/alice
+2020/02/12 16:48:52 [DEBUG] Module installer: begin alice2
+2020/02/12 16:48:52 [TRACE] ModuleInstaller: alice2 is not yet installed
+2020/02/12 16:48:52 [TRACE] ModuleInstaller: cleaning directory .terraform/modules/alice2 prior to install of alice2
+2020/02/12 16:48:52 [TRACE] ModuleInstaller: alice2 is a registry module at Andrew-Klaas/simple/aws
+2020/02/12 16:48:52 [DEBUG] alice2 listing available versions of Andrew-Klaas/simple/aws at registry.terraform.io
+2020/02/12 16:48:52 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2020/02/12 16:48:52 [TRACE] HTTP client GET request to https://registry.terraform.io/.well-known/terraform.json
+2020/02/12 16:48:52 [DEBUG] fetching module versions from "https://registry.terraform.io/v1/modules/Andrew-Klaas/simple/aws/versions"
+2020/02/12 16:48:52 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/modules/Andrew-Klaas/simple/aws/versions
+2020/02/12 16:48:52 [DEBUG] found available version "1.0.0" for andrew-klaas/simple/aws
+2020/02/12 16:48:52 [DEBUG] found available version "2.0.0" for andrew-klaas/simple/aws
+2020/02/12 16:48:52 [DEBUG] looking up module location from "https://registry.terraform.io/v1/modules/Andrew-Klaas/simple/aws/2.0.0/download"
+Downloading Andrew-Klaas/simple/aws 2.0.0 for alice2...
+2020/02/12 16:48:52 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/modules/Andrew-Klaas/simple/aws/2.0.0/download
+2020/02/12 16:48:52 [TRACE] ModuleInstaller: alice2 Andrew-Klaas/simple/aws 2.0.0 is available at "https://api.github.com/repos/Andrew-Klaas/terraform-aws-s
+imple/tarball/v2.0.0//*?archive=tar.gz"
+2020/02/12 16:48:52 [DEBUG] will download "https://api.github.com/repos/Andrew-Klaas/terraform-aws-simple/tarball/v2.0.0?archive=tar.gz" to .terraform/modul
+es/alice2
+2020/02/12 16:48:52 [TRACE] fetching "https://api.github.com/repos/Andrew-Klaas/terraform-aws-simple/tarball/v2.0.0?archive=tar.gz" to ".terraform/modules/a
+lice2"
+2020/02/12 16:48:53 [TRACE] expanded "*" to ".terraform/modules/alice2/Andrew-Klaas-terraform-aws-simple-d0b4256"
+2020/02/12 16:48:53 [TRACE] ModuleInstaller: alice2 "https://api.github.com/repos/Andrew-Klaas/terraform-aws-simple/tarball/v2.0.0//*?archive=tar.gz" was do
+wnloaded to .terraform/modules/alice2/Andrew-Klaas-terraform-aws-simple-d0b4256
+2020/02/12 16:48:53 [TRACE] ModuleInstaller: alice2 should now be at .terraform/modules/alice2/Andrew-Klaas-terraform-aws-simple-d0b4256
+2020/02/12 16:48:53 [DEBUG] Module installer: alice2 installed at .terraform/modules/alice2/Andrew-Klaas-terraform-aws-simple-d0b4256
+2020/02/12 16:48:53 [TRACE] modsdir: writing modules manifest to .terraform/modules/modules.json
+- alice2 in .terraform/modules/alice2/Andrew-Klaas-terraform-aws-simple-d0b4256
